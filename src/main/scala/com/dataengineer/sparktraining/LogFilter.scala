@@ -1,10 +1,11 @@
-package com.trace3.sparktraining
+package com.dataengineer.sparktraining
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import scala.io.Source
 /**
- * Hello world!
+ * Example of filtering a logfile based on a list of devices
+  * from separate file
  *
  */
 object LogFilter extends App {
